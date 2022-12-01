@@ -1,13 +1,13 @@
 # QA Day 2022 Tips Session 2
 
-##Tool stack
+## Tool stack
 * **Ruby** - Development language
 * **RubyMine IDE** - Development IDE
 * **Allure** Multi-language test report tool
 * **Cucumber** - Gherkin Syntax Framework
 * **RSpec** - Assertion & Validation Framework
 
-##Installation
+## Installation
 
 * Ruby must be installed. <a href="https://www.ruby-lang.org/en/downloads/">Link to install</a>
 
@@ -19,17 +19,17 @@
   ```
 
 
-##Tips 1
+## Tips 1
 Updating dynamic cucumber steps with sh file.
 
 We can update the steps using the replace.sh file with the following command. 
 ```
 bash replace.sh
 ```
-##Tips 2
+## Tips 2
 Listening to network traffic with selenium devtools
 
-##Tips 3
+## Tips 3
 Running test cases with cucumber.yml file
 You can run scenarios using the default profile with the following command.
 
@@ -37,7 +37,7 @@ You can run scenarios using the default profile with the following command.
 bundle exec cucumber
 ```
 
-##Reporting
+## Reporting
 * Allure report is used as a reporting tool.
 
 * Allure must be installed on your PC to create an Allure report..
